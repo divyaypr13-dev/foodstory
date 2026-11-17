@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-primary: #E23E3E;
+  --color-secondary: #FFB020;
+  --color-cream: #FFF8F2;
+  --color-charcoal: #1F1B16;
+  --color-open: #2E7D32;
+  --color-closed: #B71C1C;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #FFF8F2;
+    color: #1F1B16;
+  }
+
+  h1, h2, .font-display {
+    font-family: var(--font-display);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.leaflet-container {
+  font-family: var(--font-sans);
+  z-index: 10;
+}

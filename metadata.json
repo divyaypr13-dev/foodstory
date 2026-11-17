@@ -1,0 +1,6 @@
+{
+  "name": "FoodStory",
+  "description": "Discover local restaurants, explore menus, share culinary stories, estimate bills, chat in real time, and get personalized dining recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
